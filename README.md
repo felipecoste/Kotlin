@@ -40,7 +40,7 @@ Ejecuta un bloque de codigo cuando no se cumple el If.
 Funciona como un nuevo If para poder concatenar varias sentencias.  
 Se pueden escribir todos los que quieras ya que el If y el Else solo se pueden una vez.  
 
-`	val operadorLogico = 8
+`val operadorLogico = 8
         if ((operadorLogico < 10 && operadorLogico > 2) || operadorLogico == 20){
             println("$operadorLogico es menor que 10 y mayor que 2, o igual a 20")
         }
