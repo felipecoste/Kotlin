@@ -32,6 +32,6 @@ Evalua condiciones V o F y decide que bloque de codigo se ejecuta.
 2. **Operadores logicos**
 	- **&&** Operador *y*.
 	- **||** Operador *o*.
-	- **!** Operador *no*.
-
-
+	- **!** Operador *no*.  
+## Sentencia Else
+Ejecuta un bloque de codigo cuando no se cumple el If.  
