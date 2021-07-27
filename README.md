@@ -17,7 +17,7 @@ En texto se declara *println{“Esta es mi $miVariable”}*
 **Int:** Numeros enteros (byte, short, int, long).  
 **Float:** Numeros decimales (float, double).  
 **Boolean:** Verdadero o Falso (bool).  
-	- Pueden decidir que bloque de codigo se ejecuta.
+	- Pueden decidir que bloque de codigo se ejecuta.  
 	- Se realizan operaciones logicas.
 	
 
