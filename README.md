@@ -30,8 +30,8 @@ Evalua condiciones V o F y decide que bloque de codigo se ejecuta.
 	- **==** Igualdad.
 	- **!=** Desigualdad.
 2. **Operadores logicos**
-	- **&&** Operador *y*.
-	- **||** Operador *o*.
-	- **!** Operador *no*.  
+	- **&&** Operador *y* (Todas V para que se cumpla).
+	- **||** Operador *o* (Una V para que se cumpla).
+	- **!** Operador *no* (Negacion de los operadores logicos).  
 ### Sentencia Else
 Ejecuta un bloque de codigo cuando no se cumple el If.  
