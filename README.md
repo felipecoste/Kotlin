@@ -53,3 +53,32 @@ Se pueden escribir todos los que quieras ya que el If y el Else solo se pueden u
         else{
             println("$operadorLogico es mayor que 10 o menor que 2, y distinto a 20")
         }
+
+## Sentencia When (Switch)  
+
+
+	val pais = "USA"
+        // when con String
+        when(pais){
+            "Argentina", "España", "Mexico" ->{
+                println("El idioma es Español")
+            }
+            "USA", "England" ->{
+                println("El idioma es Ingles")
+            }
+            else ->{
+                println("No se conoce el idioma")
+            }
+        }
+        // when con int (entre rangos)
+        val edad = 19
+        when(edad){
+            in 0..17 -> {
+                println("Es menor de edad")
+            }
+            in 18..110 -> {
+                println("Es mayor de edad")
+            }
+            else ->{
+                println("Esta como loquita")
+            }
