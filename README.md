@@ -54,7 +54,7 @@ Se pueden escribir todos los que quieras ya que el If y el Else solo se pueden u
             println("$operadorLogico es mayor que 10 o menor que 2, y distinto a 20")
         }
 
-## Sentencia When (Switch)  
+### Sentencia When (Switch)  
 Se utiliza cuando una condicion debe tomar muchos valores.  
 
 	val pais = "USA"
