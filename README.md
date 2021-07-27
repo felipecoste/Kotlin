@@ -3,7 +3,7 @@
 
 ### Funciones
 El comando fun lo utilizamos para declarar funciones.
-	1. main > función principal
+1. main >función principal
 
 ### Variables
 val “variable no modificable”
