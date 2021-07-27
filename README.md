@@ -1,5 +1,5 @@
 # Kotlin
-## Kotlin Info
+## Basic Things
 
 ### Funciones
 El comando fun lo utilizamos para declarar funciones.
