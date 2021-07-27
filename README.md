@@ -35,3 +35,6 @@ Evalua condiciones V o F y decide que bloque de codigo se ejecuta.
 	- **!** Operador '*no*' (Negacion de los operadores logicos).  
 ### Sentencia Else
 Ejecuta un bloque de codigo cuando no se cumple el If.  
+
+### Sentencia Else If
+Funciona como un nuevo If para poder concatenar varias sentencias.
