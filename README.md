@@ -18,7 +18,20 @@ En texto se declara *println{“Esta es mi $miVariable”}*
 4. **Boolean:** Verdadero o Falso (bool).  
 	- Pueden decidir que bloque de codigo se ejecuta.  
 	- Se realizan operaciones logicas.
-	
+
+### Sentencia If
+Evalua condiciones V o F y decide que bloque de codigo se ejecuta.  
+
+1. **Operadores condicionales**
+	- **>** Mayor que.
+	- **<** Menor que.
+	- **>=** Mayor o igual que.
+	- **<=** Menor o igual que.
+	- **==** Igualdad.
+	- **!=** Desigualdad.
+2. **Operadores logicos**
+	- **&&** Operador *y*.
+	- **||** Operador *o*.
+	- **!** Operador *no*.
 
 
-	
