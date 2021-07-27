@@ -43,16 +43,13 @@ Se pueden escribir todos los que quieras ya que el If y el Else solo se pueden u
 `val operadorLogico = 8
         if ((operadorLogico < 10 && operadorLogico > 2) || operadorLogico == 20){
             println("$operadorLogico es menor que 10 y mayor que 2, o igual a 20")
-        }`
-
-        `else if(operadorLogico == 50){
+        }
+        else if(operadorLogico == 50){
             println("El numero es $operadorLogico")
         }
-
         else if(operadorLogico != 40){
             println("$operadorLogico es distinto que 40")
         }
-
         else{
             println("$operadorLogico es mayor que 10 o menor que 2, y distinto a 20")
         }`
