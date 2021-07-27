@@ -55,7 +55,7 @@ Se pueden escribir todos los que quieras ya que el If y el Else solo se pueden u
         }
 
 ## Sentencia When (Switch)  
-
+Se utiliza cuando una condicion debe tomar muchos valores.  
 
 	val pais = "USA"
         // when con String
