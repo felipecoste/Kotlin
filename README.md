@@ -7,9 +7,8 @@ El comando fun lo utilizamos para declarar funciones.
 2. **private** ->
 
 ### Variables
-1. **val** Variable no modificable.
-2. **var** Variable modificable.
-
+1. **val** Variable no modificable. (si es String no se puede cambiar a Int)
+2. **var** Variable modificable.  
 En texto se declara *println{“Esta es mi $miVariable”}*
 
 ### Data Types
