@@ -3,20 +3,25 @@
 
 ### Funciones
 El comando fun lo utilizamos para declarar funciones.
-1. main >función principal
+1. **main** -> Función principal.
+2. **private** ->
 
 ### Variables
-val “variable no modificable”
-var “variable modificable”
-	en texto se declara println{“$miVariable”}
-Siempre escribir en camelCase
+1. **val** Variable no modificable.
+2. **var** Variable modificable.
+
+En texto se declara *println{“Esta es mi $miVariable”}*
 
 ### Data Types
-String: cadenas de texto
-Int: numeros enteros (byte, short, int, long)
+**String:** Cadenas de texto
+**Int:** Numeros enteros (byte, short, int, long).
 	byte: entre -127 y 128
 	short: entre -32768 y 32767		int y long más largos
-Float: numeros decimales (float, double)
+**Float:** Numeros decimales (float, double).
+**Boolean:** Verdadero o Falso (bool)
+	Pueden decidir que bloque de codigo se ejecuta.
+	Se realizan operaciones logicas.
+	
 
 
 	
