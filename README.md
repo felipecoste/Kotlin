@@ -1,9 +1,9 @@
 # Kotlin
-### Kotlin Info
+## Kotlin Info
 
 ### Funciones
 El comando fun lo utilizamos para declarar funciones.
-	main función principal
+	1. main > función principal
 
 ### Variables
 val “variable no modificable”
@@ -16,6 +16,7 @@ String: cadenas de texto
 Int: numeros enteros (byte, short, int, long)
 	byte: entre -127 y 128
 	short: entre -32768 y 32767		int y long más largos
-Float: 
+Float: numeros decimales (float, double)
+
 
 	
