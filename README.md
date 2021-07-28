@@ -148,4 +148,30 @@ Es un tipo de estructura que sirver para agrupar datos no ordenados en una forma
     }
 
 ### Bucles For / While
-Sirven para repetir una misma accion una determinada cantidad de veces
+Sirven para repetir una misma accion una determinada cantidad de veces.
+
+    private fun bucles(){
+        val myArray = listOf("Felipe", "Facundo", "Juan")
+        val myMap = mutableMapOf("Carlos" to 1, "Pepe" to 2, "Saso" to 3)
+        // For
+        for (myString in myArray){ //Recorre la cant. de veces como datos tenga el array
+            println(myString)
+        }
+        for (myElement in myMap){
+            println("${myElement.key}-${myElement.value}")
+        }
+        for (x in 0..10){  //Desde el 0 hasta el 10 inclusive.
+            println(x)
+        }
+        for (x in 0 until 10 step 2){  //Recorre 10 veces con saltos de a 2
+            println(x)
+        }
+        for (x in 10 downTo 0){  //Cuenta regresiva
+            println(x)
+        }
+        // While
+        var z = 0
+        while (z < 10){
+            println(z)
+            z++ // z += 2,3,4,etc.
+        }
