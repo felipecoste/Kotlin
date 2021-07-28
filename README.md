@@ -146,3 +146,6 @@ Es un tipo de estructura que sirver para agrupar datos no ordenados en una forma
         myMap.remove("Kiven")
         println(myMap)
     }
+
+### Bucles For / While
+Sirven para repetir una misma accion una determinada cantidad de veces
