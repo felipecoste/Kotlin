@@ -84,29 +84,35 @@ Es una alternativa a la sentencia If y se utiliza cuando una condicion debe toma
             }
 
 ### Arrays
+Es un tipo de estructura que sirve para trabajar con un conjunto de valores ordenados de un mismo tipo (String, Int, Float, etc).
 
-    // Arrays (no se puede usar 1 array con 2 tipos de dato distintos)
     fun arrays(){
         val name = "Felipe"
         val lastname = "Coste"
         val age = "22"
+	
         // Creacion del array
         val myArray = arrayListOf<String>()
+	
         // Añadimos datos de uno en uno (array admite repetidos)
         myArray.add(name)
         myArray.add(lastname)
         myArray.add(age)
         println(myArray)
+	
         // Añadir un conjunto de datos
         myArray.addAll(listOf("Masculino", "Soltero"))
         println(myArray)
+	
         // Acceso a datos (arranca en 0)
         val myLastname = myArray[1]
         println(myLastname)
+	
         // Modificar datos
         myArray[1] = "Fullaondo"
         println(myArray)
-        // Eliminar datos
+        
+	// Eliminar datos
         myArray.removeAt(4)
         println(myArray)
     }
