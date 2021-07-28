@@ -120,3 +120,29 @@ Es un tipo de estructura que sirve para trabajar con un conjunto de valores orde
 
 ### Maps / Diccionarios
 Es un tipo de estructura que sirver para agrupar datos no ordenados en una forma de Clave / Valor (Todas las claves tienen que ser de un mismo de dato y todos los valores de un mismo tipo de dato pero pueden ser distintos entre si). No pueden existir claves repetidas.
+
+    private fun maps(){
+        // Sintaxis
+        var myMap: Map<String,Int> = mapOf()
+        println(myMap)
+
+        // Añadir elementos
+        myMap = mutableMapOf("Felipe" to 1, "Facundo" to 2, "Kiven" to 5)
+        println(myMap)
+
+        // Añadir datos uno a uno
+        myMap["Juan"] = 4
+        myMap.put("Faca", 4)
+        println(myMap)
+
+        // Actualizar un dato (si agrego un dato con una clave repetida su valor cambia)
+        myMap.put("Faca", 8)
+        println(myMap)
+
+        // Acceder a un dato
+        println(myMap["Felipe"])
+
+        //Borrar datos
+        myMap.remove("Kiven")
+        println(myMap)
+    }
