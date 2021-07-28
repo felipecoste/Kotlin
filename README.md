@@ -119,4 +119,4 @@ Es un tipo de estructura que sirve para trabajar con un conjunto de valores orde
     }
 
 ### Maps 
-Es un tipo de estructura que sirver para agrupar datos no ordenados en una forma de Clave / Valor (Todas las claves tienen que ser de un mismo de dato y todos los valores de un mismo tipo de dato pero pueden ser distintos entre si)
+Es un tipo de estructura que sirver para agrupar datos no ordenados en una forma de Clave / Valor (Todas las claves tienen que ser de un mismo de dato y todos los valores de un mismo tipo de dato pero pueden ser distintos entre si). No pueden existir claves repetidas.
